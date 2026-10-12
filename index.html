@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#1b1640">
+<title>Pebble's Space Hop - BrainBait</title>
+<style>
+html,body{margin:0;padding:0;width:100%;height:100%;height:100dvh;background:#1b1640;overflow:hidden;position:fixed;inset:0;
+  touch-action:none;overscroll-behavior:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
+canvas{display:block;position:absolute;left:0;top:0;width:100vw;height:100vh;height:100dvh;touch-action:none}
+#sa{position:absolute;visibility:hidden;pointer-events:none;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+</style>
+</head>
+<body>
+<canvas id="c" aria-label="Pebble's Space Hop game"></canvas>
+<div id="sa"></div>
+<script src="game.js"></script>
+</body>
+</html>
